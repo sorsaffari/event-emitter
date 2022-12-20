@@ -19,7 +19,7 @@
     "prerelease": "npm run build",
     "release": "release-it",
     "prepare": "husky install",
-    "prepack": "npm run build"
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "eventemitter2": "6.4.6"
